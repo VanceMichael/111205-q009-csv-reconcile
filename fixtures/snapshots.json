@@ -1,0 +1,40 @@
+{
+  "supplier": "synthetic-vendor",
+  "compare_columns": [
+    "sku",
+    "qty",
+    "price"
+  ],
+  "candidate_key": [
+    "sku"
+  ],
+  "ignored_columns": [
+    "note"
+  ],
+  "files": [
+    {
+      "file": "day1.csv",
+      "complete": true,
+      "declared_rows": 3,
+      "generation": 1
+    },
+    {
+      "file": "day2.csv",
+      "complete": true,
+      "declared_rows": 3,
+      "generation": 2
+    },
+    {
+      "file": "day2-partial.csv",
+      "complete": false,
+      "declared_rows": 3,
+      "generation": 2
+    },
+    {
+      "file": "ambiguous.csv",
+      "complete": true,
+      "declared_rows": 3,
+      "generation": 3
+    }
+  ]
+}
