@@ -1,0 +1,45 @@
+{
+  "supplier": "synthetic-vendor",
+  "deliveries": [
+    {
+      "file": "part-2.csv",
+      "batch": "batch-1",
+      "part": 2,
+      "parts": 2,
+      "encoding": "utf-8",
+      "sha256": "e9e729347ff441932b58dd5559c06bdda101bae2be0731a4c939c6331069447d"
+    },
+    {
+      "file": "part-1.csv",
+      "batch": "batch-1",
+      "part": 1,
+      "parts": 2,
+      "encoding": "utf-8",
+      "sha256": "b360f64709a51937b16118f7cca68d432c195cc2a69268f1c8933da0019fa2b3"
+    },
+    {
+      "file": "part-1-again.csv",
+      "batch": "batch-1",
+      "part": 1,
+      "parts": 2,
+      "encoding": "utf-8",
+      "sha256": "b360f64709a51937b16118f7cca68d432c195cc2a69268f1c8933da0019fa2b3"
+    },
+    {
+      "file": "part-1-conflict.csv",
+      "batch": "batch-1",
+      "part": 1,
+      "parts": 2,
+      "encoding": "utf-8",
+      "sha256": "6d763f05b5a7a7db7ed183d8843a156ca1ac3e3e3c1c6526f2d0781e08d3822b"
+    },
+    {
+      "file": "bad-row.csv",
+      "batch": "batch-2",
+      "part": 1,
+      "parts": 1,
+      "encoding": "utf-8",
+      "sha256": "2c3ea154f332d0e748f1efa343ebe60b57a855f0c97dfa6a0b2f74b0c9c28794"
+    }
+  ]
+}
