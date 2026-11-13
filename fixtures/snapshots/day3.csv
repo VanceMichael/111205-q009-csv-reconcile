@@ -1,0 +1,5 @@
+sku,qty,price,note
+A,1.50,2.50,dup-one
+A,1.50,2.50,dup-two
+A,1.50,2.50,dup-three
+B,0.00,8.00,z

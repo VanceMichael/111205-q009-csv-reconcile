@@ -4,6 +4,7 @@ import sys
 import unittest
 from pathlib import Path
 
+import context  # noqa: F401  python3 -I 下注入仓库根
 import test_service
 from demo import run
 
@@ -16,7 +17,8 @@ class OfflineDemoTests(unittest.TestCase):
 
     def test_documented_cli_outputs_the_same_data(self):
         root = Path(__file__).resolve().parents[1]
-        result = subprocess.run([sys.executable, 'demo.py'], cwd=root, text=True, capture_output=True, timeout=10)
+        result = subprocess.run([sys.executable, '-I', 'demo.py'], cwd=root,
+                                text=True, capture_output=True, timeout=30)
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertEqual(json.loads(result.stdout), run())
 

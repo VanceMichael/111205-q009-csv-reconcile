@@ -11,6 +11,10 @@
   "ignored_columns": [
     "note"
   ],
+  "numeric_columns": [
+    "qty",
+    "price"
+  ],
   "files": [
     {
       "file": "day1.csv",
@@ -35,6 +39,12 @@
       "complete": true,
       "declared_rows": 3,
       "generation": 3
+    },
+    {
+      "file": "day3.csv",
+      "complete": true,
+      "declared_rows": 4,
+      "generation": 4
     }
   ]
 }
